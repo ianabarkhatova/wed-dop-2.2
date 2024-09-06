@@ -33,7 +33,7 @@ export const Button: FC<{ onPlusCountValueClick: () => void }> = ({onPlusCountVa
                 style={{...FIRST_BUTTON_BACKGROUND, ...BUTTON_STYLES}}
                 onClick={onPlusCountValueClick}
             >
-                Plus first counter
+                Plus counter
             </button>
         </div>
     );
